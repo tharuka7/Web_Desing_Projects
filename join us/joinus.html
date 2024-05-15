@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Join us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="registration-form">
+        <h1>Course Registration</h1>
+        <form action="db.php" method="post">
+            <p>Full Name :</p>
+            <input type="text" name="name" placeholder="Full name">
+
+            <p>Age :</p>
+            <input type="text" name="age" placeholder="Age">
+
+        
+
+            <p>Select Course :</p>
+            
+                <select name ="course">
+                    <option>Web development</option> 
+                    <option>Fundamental Of Information Tecnology</option> 
+                    <option selected>Programming</option> 
+                   
+                 </select>
+
+                 <br><br>
+
+                 <button type="submit" value="send" id="submit" onclick="openPopup()">Join US</button>
+
+                    <div class="popup" id="popup">
+                        <img src="2.png">
+                        <h2>Thank You!</h2>
+                        <p>Your details has been succussfully submited. Thanks!</p>
+                        <button type="button" onclick="closePopup()">OK</button>
+
+
+                    </div>
+
+                </form>
+
+                 </div>
+
+                 <script>
+                    let popup = document.getElementById("popup");
+                    
+                    function openPopup(){
+
+                        popup.classList.add("open-popup");
+
+                    }
+
+                    function closePopup(){
+
+                        popup.classList.remove("open-popup");
+
+                        }
+
+
+                 </script>
+    
+</body>
+</html>
