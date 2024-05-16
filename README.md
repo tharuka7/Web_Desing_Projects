@@ -1,6 +1,6 @@
 # WEB Design Individual Project
 
-# E-learning Course Center
+# Web Page base on E-learning Course Center
 
 ## About
 This project is a web design for an E-learning Course Center. The platform allows users to register for online courses conveniently.
