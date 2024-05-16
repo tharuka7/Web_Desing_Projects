@@ -17,7 +17,7 @@ This project is a web design for an E-learning Course Center. The platform allow
 
 ## Preview
 ### Home Page
-![Home Page Preview](![home_preview](https://github.com/tharuka7/web_desing_project/assets/60395300/38853896-8263-4f4d-8991-2e7c3212a67d))
+![home_preview](https://github.com/tharuka7/web_desing_project/assets/60395300/38853896-8263-4f4d-8991-2e7c3212a67d)
 
 ### About Page
 ![About Page Preview](about_preview.png)
