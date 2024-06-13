@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: url('1.jpg') no-repeat;
+    background-size: cover;
+    color:rgb(0, 0, 0);
+}
+
+.registration-form{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+    width:400px;
+}
+
+
+.registration-form h1{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+    
+}
+
+.registration-form p{
+    font-size: 20px;
+    margin: 15px 0;
+    
+}
+
+.registration-form input{
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    
+}
+
+
+.registration-form select{
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+.registration-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #fff;
+
+    
+}
+
+.registration-form button:hover{
+    color: red;
+}
+
+
+.popup {
+
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,50%) scale(0.1);
+    text-align:center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+
+}
+
+.open-popup{
+
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,50%) scale(1);
+}
+
+
+.popup img{
+
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 20%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+
+}
+
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+
+}
+
+.popup btn{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background:#6fd649;
+    color: #fff ;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
