@@ -9,7 +9,7 @@ Feel free to explore the projects and use them as inspiration for your own web d
 ---
 
 **Project List:**
-- Project 1: [Project Name](link)
+- E-learning Course Center
 
 
 For more details on each project, navigate to their respective folders.
